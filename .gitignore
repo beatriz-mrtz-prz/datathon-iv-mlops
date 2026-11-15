@@ -1,0 +1,46 @@
+# Credenciales — nunca deben llegar al repositorio
+.env
+*.pem
+*.key
+
+# Datos — el dataset es propiedad de Panadería Salvador
+data/
+raw/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+
+# Ficheros generados por MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+outputs/
+catboost_info/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Entornos y editores
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Pruebas y caché
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

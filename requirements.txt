@@ -1,0 +1,31 @@
+# Versiones con las que se ha desarrollado y probado el proyecto.
+
+# Datos
+pandas==3.0.5
+numpy==2.5.3
+openpyxl==3.1.5
+
+# Base de datos
+SQLAlchemy==2.1.8
+PyMySQL==1.1.1
+python-dotenv==1.2.3
+
+# Meteorología
+# La API de meteostat cambió en la versión 2: Point y Daily solo existen en la 1.x
+meteostat==1.6.8
+
+# Machine learning
+scikit-learn==1.9.1
+
+# MLOps
+mlflow==3.18.0
+
+# Visualización
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Peticiones a la API del modelo
+requests==2.34.2
+
+# Entorno de trabajo
+jupyterlab==4.3.1
